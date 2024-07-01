@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    background-image: none;
+    /* escolher fonte */
+    margin: 0;
+    /* escolher margem */
+    padding: 0;
+    /* escolher preenchimento */
+    background-color:rgb(153, 235, 250);
+    /* escolher cor de fundo */
+    text-align: center;
+}
+
+img{ 
+    align-items: center;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+
+h1{
+    text-align: center;
+}
+
+.textos{
+    text-align: justify;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0;
+    margin: auto;
+
+}
+
+
+.input_text{ 
+    border: 1px;
+    width: 300px;
+    padding: 0.2%;
+    color: rgba(5, 5, 5, 0.39);
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+input:hover{
+    border: 1px solid color(srgb rgb(252, 132, 132) green blue);
+}
+
+input::placeholder{ 
+    color: rgb(172, 35, 35);
+}
+
+textarea:focus, input:focus {
+    box-shadow: inset;
+    outline: inset;
+    border-radius: 5px;
+    color: rgb(10, 10, 10);
+
+}
+
+.radios{
+    display: flex;
+    width: fit-content;
+
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.idade{
+    margin-bottom: 2%;
+}
